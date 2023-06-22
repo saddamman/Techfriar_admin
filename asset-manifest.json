@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Techfriar_admin/static/css/main.4ee73a8b.css",
+    "main.js": "/Techfriar_admin/static/js/main.9c71527e.js",
+    "static/media/list-view-icon.svg": "/Techfriar_admin/static/media/list-view-icon.f9cd1d419198e3da090200ff79ca48e4.svg",
+    "static/media/filter-icon.svg": "/Techfriar_admin/static/media/filter-icon.2d1a6eb6658f14d1e1bf7692c139b096.svg",
+    "static/media/notification-icon.svg": "/Techfriar_admin/static/media/notification-icon.60e5788b35036c4d96a073ee57637243.svg",
+    "index.html": "/Techfriar_admin/index.html",
+    "static/media/search-icon.svg": "/Techfriar_admin/static/media/search-icon.3c40f9c5b09a04ecc12093e37e335cb8.svg",
+    "main.4ee73a8b.css.map": "/Techfriar_admin/static/css/main.4ee73a8b.css.map",
+    "main.9c71527e.js.map": "/Techfriar_admin/static/js/main.9c71527e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ee73a8b.css",
+    "static/js/main.9c71527e.js"
+  ]
+}
