@@ -1,0 +1,7 @@
+.card {
+  @include card($white, $white-smoke, $black);
+  @include box-shadow(5px, 5px, 5px, rgba(0, 0, 0, 025));
+  @include border-radius(20px);
+  padding: 20px;
+  margin: 0 20px;
+}

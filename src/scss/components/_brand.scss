@@ -1,0 +1,10 @@
+.brand {
+  width: 44px;
+  height: 41px;
+  background: rgba(255, 255, 255, 0.5);
+  @include border-radius(30px);
+  @media (max-width: 767px) {
+    width: 30px;
+    height: 27px;
+  }
+}

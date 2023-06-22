@@ -1,0 +1,106 @@
+.people {
+  padding: 0;
+  .peopleHeader {
+    @include flexbox($justifyContent: space-between);
+    padding: 30px;
+    @media (max-width: 767px) {
+      flex-direction: column-reverse;
+      padding: 10px 15px;
+    }
+    h2 {
+      @include heading;
+      @media (max-width: 767px) {
+        justify-content: left;
+        margin-top: 20px;
+        font-size: 16px;
+      }
+
+      margin: 0;
+      font-weight: $font-weight-semiBold;
+      @include flexbox($alignItems: center, $justifyContent: center);
+      column-gap: 10px;
+      .peopleHeader__btn {
+        background-color: $theme_dark_black;
+        color: $white;
+        width: 30px;
+        height: 30px;
+        @include border-radius(6px);
+        @include flexbox($alignItems: center, $justifyContent: center);
+        border: 0;
+        cursor: pointer;
+        @media (max-width: 767px) {
+          width: 20px;
+          height: 20px;
+        }
+      }
+    }
+    .people__rightBx {
+      form {
+        @include flexbox();
+        gap: 12px;
+        @media (max-width: 767px) {
+          @include flexbox($justifyContent: flex-end);
+        }
+
+        .people__searchBx {
+          @include card($theme_background_grey, $theme_border_grey, #6a6a6a);
+          @include border-radius(6px);
+          @include flexbox($alignItems: center);
+          padding: 12px;
+          gap: 10px;
+          height: 41px;
+          @media (max-width: 767px) {
+            height: 35px;
+          }
+          button {
+            background-color: transparent;
+            border: 0;
+            padding: 0;
+          }
+          input[type="search"] {
+            background-color: transparent;
+            border: 0;
+            font-weight: $font-weight-medium;
+            font-size: 14px;
+            line-height: 17px;
+            @include placeholder-color($theme_input_color);
+            width: 100%;
+          }
+          &.people__searchBx--filter {
+            padding: 12px 20px;
+            cursor: pointer;
+
+            @media (max-width: 767px) {
+              margin-top: 0;
+              padding: 0 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .peopleContent {
+    // overflow-x: auto;
+    // overflow-y: hidden;
+    .viewFilterRow {
+      margin-top: 30px;
+      display: flex;
+      padding: 0 30px;
+      justify-content: flex-end;
+      @media (max-width: 767px) {
+        padding: 0 15px;
+      }
+
+      .viewFilter {
+        @include card($theme_background_grey, $theme_border_grey, #6a6a6a);
+        @include border-radius(6px);
+        @include flexbox($alignItems: center);
+        padding: 9px 5px;
+        button {
+          background-color: transparent;
+          border: 0;
+        }
+      }
+    }
+  }
+}

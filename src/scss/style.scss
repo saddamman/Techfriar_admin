@@ -1,0 +1,26 @@
+// Fonts
+@import "./fonts";
+
+// Variables
+@import "./variables";
+@import "./mixin";
+
+// Import Base
+@import "./reset";
+@import "./base";
+@import "./typrography";
+
+// Import UI
+@import "./UI/card";
+@import "./UI/mainTemplate";
+
+// Import Layout
+@import "./layout/sidebar";
+
+// Import Pages
+@import "./pages/peoples/people";
+@import "./pages/peoples/peopleList";
+
+// Import Components
+@import "./components/brand";
+@import "./components/header";
